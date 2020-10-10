@@ -98,26 +98,26 @@
   
 
 
-    <!-- Section D -->
-    <section id="section-c" class="grid">
-      <div class="content-wrap">
-        <h2 class="content-title">Pošlji nam sporočilo:</h2>
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Ime: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>E-naslov: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Sporočilo: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-      </div>
-    </section>
+    <!-- Section D  contact form ovo ono--> 
+
+    <div class="container">
+      <form action="action_page.php">
+
+        <h2 id="fredo">Kontakt</h2>
+    
+        <label for="fname">Ime</label>
+        <input type="text" id="fname" name="firstname" placeholder="Ime..">
+    
+        <label for="lname">E-naslov</label>
+        <input type="text" id="email" name="email" placeholder="E-naslov..">
+    
+        <label for="subject">Sporočilo</label>
+        <textarea id="subject" name="subject" placeholder="Sporočilo.." style="height:125px"></textarea>
+    
+        <input type="submit" value="Pošlji">
+    
+      </form>
+    </div>
 
 
   </main>
